@@ -1,0 +1,64 @@
+a {
+    text-decoration: none;
+    padding: 40px
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 150px;
+    grid-row-gap: 150px;
+}
+    
+.div1 { grid-area: 2 / 2 / 4 / 4; }
+.div2 { grid-area: 2 / 5 / 4 / 7; }
+.div3 { grid-area: 4 / 2 / 8 / 4; }
+.div4 { grid-area: 4 / 5 / 8 / 7; }
+.div5 { grid-area: 2 / 1 / 5 / 2; }
+.div6 { grid-area: 2 / 8 / 5 / 9; }
+
+.sonicbutton{
+    background-image: url("../fotos/sonic.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 150px;
+}
+
+.bg3button{
+    background-image: url("../fotos/bg3.jpg") ;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 150px 150px;
+}
+
+.xmenbutton{
+    background-image: url("../fotos/x-men.jpg") ;
+    background-position: auto; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 150px 150px;
+}
+
+.jksbutton{
+    background-image: url("../fotos/jks.jpg") ;
+    background-position: auto; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 150px;
+}
+
+.wilso > img{
+    max-width: 300px;
+}
+
+.fontfamily{
+    font-family: 'Roboto';
+    color: #FF7A59;
+    padding-top: 40px;
+    text-align: center;
+}
+
+body {  background-image: url('../fotos/1234.jpg');  background-repeat: no-repeat;  background-attachment: fixed;  background-size: 100% 100%;}
